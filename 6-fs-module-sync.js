@@ -17,3 +17,6 @@ const second = readFileSync('./content/subfolder/second.txt', 'utf8') // also ca
 writeFileSync('./content/result-sync.txt', `Here is the result ${first}, ${second}`, {flag: 'a'})
 console.log('Done with the task')
 console.log('Starting the new task')
+// for (var i = 1; i <=1000; i++) {
+//     writeFileSync('./content/big_file.txt', `hello world ${i}\n`, {flag:'a'});
+// }
